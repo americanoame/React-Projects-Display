@@ -28,6 +28,6 @@ npm run dev
 
 <table>
   <tr>
-    <td><img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/1de10a55-8d06-4336-b818-3ef12993a8e5"><td>
+    <td><img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/ac9c9386-6a25-4fa0-97ca-3584a113689c"><td>
   </tr>
 </table>
