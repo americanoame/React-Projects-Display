@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --color-brown: #8d3610;
+    --color-orange: rgb(240, 156, 60);
+    --color-dark-orange: rgb(244, 134, 9);
+    --color-orange-ish: rgb(220, 168, 109);
+    --color-light-gray: rgba(247, 246, 246, 0.695);
+    --color-grey: rgb(67, 65, 65);
+    --color-grey-ish: rgb(93, 91, 91);
+    --primary-hue: 270;
+    --light-lightness: 94%;
+    --white-lightness: 100%;
+    --color-primary: hsl(0, 2%, 10%);
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  
+    /* GENERAL TRANSITION VARIABLE */
+    --transition: all 500ms ease;
+
+    /* BOX SHADOW */
+    --box-shadow: rgba(60, 64, 67, 0.15) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    background: var(--color-light);
+  }
+  
+  
+  /* GENERAL HEADING STYLES */
+  h4 {
+    line-height: 1.1;
+    color: var(--color-grey);
+    font-size: 1.1rem;
+  }
+  
+  p {
+    color: var(--color-grey-ish);
+  }
+  
+  /* GENERAL IMAGES STYLES */
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* GENERAL BUTTON STYLES */
+  .btn {
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--color-light);
+    color: var(--color-black);
+    padding: 0.6rem 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    border-color: var(--color-light);
+    color: var(--color-dark-orange);
+    transform: translateY(-0.5rem);
+  }
+  
+  .btn.white {
+    background: var(--color-white);
+  }
+  
+  .btn.white:hover {
+    background: transparent;
+    border-color: var(--color-white);
+  }
+  
+  .btn.primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+  
+  .btn.primary:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+  
+  .btn.sm {
+    padding: 0.5rem 1.2rem;
+  }
+  
