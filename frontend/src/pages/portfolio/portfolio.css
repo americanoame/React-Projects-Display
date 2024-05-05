@@ -7,7 +7,8 @@ section h2 {
   text-align: center;
   margin: 1rem 0 2rem;
   color: var(--color-brown);
-  -webkit-text-stroke: 2.7px var(--color-light);
+  -webkit-text-stroke: 3.9px var(--color-light);
+  
 }
 
 .portfolio__categories {
