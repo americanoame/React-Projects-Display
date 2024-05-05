@@ -1,5 +1,6 @@
 section {
-  margin-bottom: 3.1rem;
+  max-width: 960px;
+  margin: 0 auto 5rem;
 }
 
 section h2 {
@@ -7,8 +8,7 @@ section h2 {
   text-align: center;
   margin: 1rem 0 2rem;
   color: var(--color-brown);
-  -webkit-text-stroke: 3.9px var(--color-light);
-  
+  -webkit-text-stroke: 2.7px var(--color-light);
 }
 
 .portfolio__categories {
@@ -31,6 +31,24 @@ section h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.portfolio__project {
+  animation: animateProject 800ms ease-in forwards;
+  padding: 0.5rem;
+}
+
+@keyframes animationProject {
+  form {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.portfolio__project-image {
+  margin-bottom: 1.5rem;
 }
 
 .portfolio__project {
@@ -104,6 +122,15 @@ section h2 {
   box-shadow: var(--box-shadow);
 }
 
+@media screen and (max-width: 1024px) {
+  .portfolio__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+    max-width: 960px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .portfolio__categories {
     gap: 0.6rem;
@@ -117,23 +144,8 @@ section h2 {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-}
 
-@media screen and (max-width: 1024px) {
-  .portfolio__projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 1rem;
-    max-width: 60rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl {
-    max-width: 60rem;
+  section h2 {
+    font-size: 2rem;
   }
 }
