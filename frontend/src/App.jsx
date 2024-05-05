@@ -1,8 +1,12 @@
-
+import PortfolioProject from './pages/portfolio/PortfolioProject';
 
 const App = () => {
   return (
-    <div>App</div>
+    <main>
+      
+      <PortfolioProject />
+    </main>
+    
   )
 }
 
