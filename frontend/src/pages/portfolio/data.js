@@ -19,7 +19,7 @@ const data = [{
     category: 'frontend',
     image: Image4,
     title: 'frontend',
-    desc: 'React Redux Thunk cart',
+    desc: 'React-Redux-Thunk-cart',
     demo: 'https://github.com/americanoame/Redux-Thunk-Sopping-Cart/tree/main',
     github: 'https://mdv-controller.herokuapp.com/',
     
