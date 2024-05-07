@@ -29,10 +29,11 @@ npm run dev
 
 <table>
   <tr>
-    <td><img src="https://github.com/americanoame/React-Projects-Display/raw/main/assets/77306236/26e4e3e7-2876-48d3-823b-562f89795b6a"></td>
+    <td><img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/26e4e3e7-2876-48d3-823b-562f89795b6a"><td>
   </tr>
   <tr>
-    <td><img src="https://github.com/americanoame/React-Projects-Display/raw/main/assets/77306236/f881f61e-8a84-4ce9-a22f-ec2889e0b028"></td>
-    <td><img src="https://github.com/americanoame/React-Projects-Display/raw/main/assets/77306236/176a1ef5-dc6f-4c4e-a1df-6188d23eb2f7"></td>
+   <td><img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/f881f61e-8a84-4ce9-a22f-ec2889e0b028"
+
+   <img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/176a1ef5-dc6f-4c4e-a1df-6188d23eb2f7"></td>
   </tr>
 </table>
