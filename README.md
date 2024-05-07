@@ -1,8 +1,9 @@
-# React-Projects-Display 
+# React-Projects-Display
 
 - I developed a React application specifically designed to showcase my projects
 
 ## 🖥️ Projects-Display
+
 **Frontend:**
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -14,10 +15,10 @@
 **Deployed On:**
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-* Two steps to run the application 
+- Two steps to run the application
 
 ```
-npm i 
+npm i
 ```
 
 ```
@@ -28,6 +29,9 @@ npm run dev
 
 <table>
   <tr>
-    <td><img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/ac9c9386-6a25-4fa0-97ca-3584a113689c"><td>
+    <td><img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/26e4e3e7-2876-48d3-823b-562f89795b6a"><td>
+  </tr>
+  <tr>
+   <td><img src="https://github.com/americanoame/React-Projects-Display/assets/77306236/f881f61e-8a84-4ce9-a22f-ec2889e0b028"></td>
   </tr>
 </table>
