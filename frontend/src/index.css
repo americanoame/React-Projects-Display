@@ -83,10 +83,6 @@
     transform: translateY(-0.5rem);
   }
   
-  .btn.white {
-    /* background: var(--color-grey-ish); */
-    background: red;
-  }
   
   .btn.white:hover {
     background: transparent;
