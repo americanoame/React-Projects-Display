@@ -1,4 +1,3 @@
-import './card.css'
 
 const Card = ({children, className}) => {
     return (
