@@ -1,6 +1,5 @@
 section {
-  max-width: 960px;
-  margin: 0 auto 5rem;
+  margin-bottom: 3.1rem;
 }
 
 section h2 {
@@ -17,6 +16,7 @@ section h2 {
   gap: 1.5rem;
   flex-wrap: wrap;
 }
+
 .btn.cat__btn {
   text-transform: capitalize;
   transition: var(--transition);
@@ -52,29 +52,13 @@ section h2 {
 }
 
 .portfolio__project {
-  animation: animateProject 800ms ease-in forwards;
-}
-
-@keyframes animationProject {
-  form {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.portfolio__project-image {
-  margin-bottom: 1.5rem;
-}
-
-.portfolio__project {
   padding: 1rem;
   border: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  border-radius: 0;
 }
 
 .portfolio__project-content {
@@ -122,6 +106,16 @@ section h2 {
   box-shadow: var(--box-shadow);
 }
 
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 960px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .portfolio__projects {
     display: grid;
@@ -131,9 +125,17 @@ section h2 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .portfolio__project-cta .btn {
+    padding: 0.1rem 0.8rem;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   .portfolio__categories {
     gap: 0.6rem;
+    padding: 0.1rem 0.8rem;
   }
 
   .btn.cat__btn {
@@ -145,7 +147,20 @@ section h2 {
     gap: 1.5rem;
   }
 
+  .portfolio__project-cta .btn {
+    padding: 0.1rem 0.8rem;
+  }
+
   section h2 {
-    font-size: 2rem;
+    -webkit-text-stroke: 1.8px var(--color-light);
+    font-size: 2.0rem;
   }
 }
+
+/* later on i will find out why the i can't put padding on the Surface Duo */
+
+/* @media screen and (min-width: 540px) and (max-width: 720px) {
+  .portfolio__projects {
+    padding: 1.5rem; 
+  }
+} */
