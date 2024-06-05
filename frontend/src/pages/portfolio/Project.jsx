@@ -11,10 +11,10 @@ const Project = ({ project }) => {
         <p>{project.desc}</p>
       </div>
       <div className="portfolio__project-cta">
-        <a href="" className="btn sm demo" target="_blank" rel="noopner noreferrer">
+        <a href={project.demo} className="btn sm" target="_blank" rel="noopner noreferrer">
           Demo
         </a>
-        <a href="" className="btn sm primary" target="_blank" rel="noopner noreferrer">
+        <a href={project.github} className="btn sm primary" target="_blank" rel="noopner noreferrer">
           Github
         </a>
       </div>
