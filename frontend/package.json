@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b ./path-to-tsconfig && vite build",
+    "build": "tsc -b && vite build",
     "clean": "rm -rf dist",
     "predeploy": "npm run build",
     "deploy": "npm run clean && npm run build && gh-pages -d dist",
