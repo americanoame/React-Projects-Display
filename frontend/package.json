@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b ./path-to-tsconfig && vite build",
-    "clean": "rm -rf dist",
+    "build": "tsc -b && vite build",
     "predeploy": "npm run build",
-    "deploy": "npm run clean && npm run build && gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
