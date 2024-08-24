@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "clean": "rm -rf dist",
-    "predeploy": "npm run build",
-    "deploy": "npm run clean && npm run build && gh-pages -d dist",
+    "build": "react-scripts build",
+  "clean": "rm -rf build",
+  "predeploy": "npm run build",
+  "deploy": "npm run clean && npm run build && gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
