@@ -39,7 +39,7 @@ section h2 {
 }
 
 @keyframes animationProject {
-  form {
+  from {
     opacity: 0;
   }
   to {
