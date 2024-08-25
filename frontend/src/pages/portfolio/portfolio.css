@@ -65,6 +65,10 @@ section h2 {
   flex-grow: 1;
 }
 
+.portfolio__project-content h4 {
+  color: #dbd9d9;
+}
+
 .portfolio__project:first-child {
   background: var(--color-orange);
   transition: var(--transition);
@@ -75,12 +79,16 @@ section h2 {
 }
 
 .portfolio__project:not(:first-child):hover {
-  background: var(--color-light-gray);
+  /* background: var(--color-light-gray); */
+
+  background-color: rgba(0, 0, 0, 0.695);
   transition: var(--transition);
+  
 }
 
 .portfolio__project:hover {
   transform: translateY(-0.5rem);
+  
 }
 
 .portfolio__project:first-child p {
@@ -89,6 +97,9 @@ section h2 {
 
 .portfolio__project p {
   margin: 0.5rem 0 2rem;
+  color: #aba8a8;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .portfolio__project-cta {
